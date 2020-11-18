@@ -8,6 +8,7 @@
 module.exports = {
 
   attributes: {
+    id: { type: 'number', autoIncrement: true, },
     name:{type:'string'},
     init_price:{type:'string'},
     sale_price:{type:'string'},

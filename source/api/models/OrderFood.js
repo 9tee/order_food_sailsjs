@@ -8,7 +8,7 @@
 module.exports = {
 
   attributes: {
-
+    id: { type: 'number', autoIncrement: true, }, //trường này ko xóa được nhé
     order_id:{type:'number'},
     food_id:{type:'number'},
     quantity:{type:'number'},

@@ -20,8 +20,32 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': { view: 'pages/homepage' },
-  'POST /abc': { action: 'abc' },
+  'POST /api/v1/food/list-food': { action: 'food/list-food' },
+  'POST /api/v1/food/food-detail': { action: 'food/food-detail' },
+  'POST /api/v1/food/calculate-bill': { action: 'food/calculate-bill' },
 
+
+  'POST /api/v1/user/register': { action: 'user/register' },
+  'POST /api/v1/user/login': { action: 'user/login' },
+  'GET /api/v1/user/get-all': { action: 'user/get-all' },
+  'GET /api/v1/user/get-one': { action: 'user/get-one' },
+  'PUT /api/v1/user/update': { action: 'user/update' },
+
+
+  'POST /api/v1/category/list-category': { action: 'category/list-category' },
+
+
+  'POST /api/v1/order/create': { action: 'order/create' },
+
+
+  'POST /api/v1/store/create': { action: 'store/create' },
+
+
+  
+  'GET /api/v1/food/search-food': { action: 'food/search-food' },
+  'GET /api/v1/store/get-store-by-id': { action: 'store/get-store-by-id' },
+  'GET /api/v1/menu/get-menu-by-id': { action: 'menu/get-menu-by-storeid' },
+  'GET /api/v1/food/get-food-by-storeid': { action: 'food/get-food-by-storeid' },
   /***************************************************************************
   *                                                                          *
   * More custom routes here...                                               *

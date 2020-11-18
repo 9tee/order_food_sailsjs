@@ -52,6 +52,4 @@ module.exports.datastores = {
     url: 'mysql://root:root@172.18.0.1:3306/test',
     connectTimeout: 20000
   },
-
-
 };
